@@ -1,0 +1,12 @@
+<MetaData>
+ <Attributes>
+  <loading_video value=""/>
+  <loading_image value=""/>
+  <unloading_image value=""/>
+  <DescriptionText text=""/>
+ </Attributes>
+ <Gamerules MP1="Miscreated"/>
+ <DescriptionText text=""/>
+ <Display Name="smalltest"/>
+ <MiniMap Filename="jackjohns0n.dds" startX="-16" startY="-16" endX="16" endY="16" width="1024" height="1024"/>
+</MetaData>

@@ -1,0 +1,26 @@
+<item name="MutantMeatSteakCured" class="Consumable" category="any">
+
+	<params>
+		<param name="selectable" value="0" />
+		<param name="mass" value="1.0" />
+		<param name="stack_size" value="5" />
+		<param name="display_name" value="Cured Mutant Meat" />
+		<param name="description" value="Cured Mutant meat. Tough but tasty!" />
+	</params>
+
+	<geometry>
+		<thirdperson name="Objects/JackJohns0n/JJMutantMeat/meat_steak_cured.cgf"/>
+	</geometry>
+
+	<consumable>
+		<param name="foodAmount" value="400" />
+		<param name="soundConsumed" value="Play_food_soft_eat" />
+	</consumable>
+
+	<storage>
+		<locations>
+			<location category="any"/>
+		</locations>
+	</storage>
+
+</item>

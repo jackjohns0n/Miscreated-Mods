@@ -1,0 +1,12 @@
+<GameTokensLibrary Name="Score">
+ <GameToken Name="Score" Type="Int" Value="0" LocalOnly="1"/>
+ <GameToken Name="Score1" Type="Int" Value="0" LocalOnly="1"/>
+ <GameToken Name="Score2" Type="Int" Value="0" LocalOnly="1"/>
+ <GameToken Name="Score3" Type="Int" Value="0" LocalOnly="1"/>
+ <GameToken Name="Score4" Type="Int" Value="0" LocalOnly="1"/>
+ <GameToken Name="Score5" Type="Int" Value="0" LocalOnly="1"/>
+ <GameToken Name="Score6" Type="Int" Value="0" LocalOnly="1"/>
+ <GameToken Name="Score7" Type="Int" Value="0" LocalOnly="1"/>
+ <GameToken Name="Score8" Type="Int" Value="0" LocalOnly="1"/>
+ <GameToken Name="Score9" Type="Int" Value="0" LocalOnly="1"/>
+</GameTokensLibrary>

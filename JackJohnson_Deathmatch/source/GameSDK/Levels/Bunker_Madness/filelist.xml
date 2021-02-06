@@ -1,0 +1,7 @@
+<download name="bunker_madness" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="Bunker_Madness.xml" dest="Bunker_Madness.xml" size="351" md5="2c09abc5e039e14ef063c851502903dd"/>
+  <file src="level.pak" dest="level.pak" size="22707982" md5="6a46c1f1ac7a7be6e768d458dfb3d5f3"/>
+ </files>
+</download>

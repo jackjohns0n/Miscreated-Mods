@@ -1,0 +1,29 @@
+<item name="thebfc" class="Consumable" category="any">
+
+	<params>
+		<param name="selectable" value="0" />
+		<param name="mass" value="0.00" />
+		<param name="display_name" value="The BFC Mutant Energy Drink" />
+		<param name="description" value="The Big Fucking Can of Mutant Energy Drink" />
+	</params>
+
+	<geometry>
+		<thirdperson name="Objects/Mnewrath/WTheBFC/thebfc.cgf" />
+	</geometry>
+
+	<consumable>
+		<param name="consumePartial" value="1"/>
+		<param name="drinkAmount" value="450"/>
+		<param name="torpidityAmount" value="-10"/>
+		<param name="staminaAmount" value="30"/>
+		<param name="soundConsumed" value="Play_container_drink"/>
+	</consumable>
+
+
+	<storage>
+		<locations>
+			<location category="any"/>
+		</locations>
+	</storage>
+
+</item>

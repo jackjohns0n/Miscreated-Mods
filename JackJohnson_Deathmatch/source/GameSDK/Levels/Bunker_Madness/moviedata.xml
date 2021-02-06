@@ -1,0 +1,10 @@
+<MovieData>
+ <Mission Name="Mission0">
+  <SequenceData>
+   <Sequence SequenceVersion="3" Name="promo" Flags="0" StartTime="0" EndTime="10" ID="0">
+    <Nodes />
+    <Events />
+   </Sequence>
+  </SequenceData>
+ </Mission>
+</MovieData>

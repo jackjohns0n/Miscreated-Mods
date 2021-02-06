@@ -1,0 +1,33 @@
+<item name="WoodPile" class="Item" category="any">
+
+	<params>
+		<param name="selectable" value="0"/>
+		<param name="mass" value="0.0"/>
+		<param name="stack_size" value="20"/>
+		<param name="display_name" value="@WoodPile"/>
+		<param name="description" value="@WoodPileDescription"/>
+	</params>
+
+	<geometry>
+		<thirdperson name="objects/craftingmats/wood/wood_pile.cgf"/>
+	</geometry>
+
+	<usable>
+		<uses>
+			<use>
+				<param name="title" value="Add Fuel"/>
+				<param name="action" value="wood_item"/>
+				<param name="param" value="30"/> <!-- burn time -->
+				<param name="soundUsed" value="Play_wood_use"/>
+				<param name="targetClassNames" value="dws_grill2;dws_firepit_outdoors_1;dws_firepit_outdoors_2;water_purifier;dws_cabinStove;Campfire"/>
+			</use>
+		</uses>
+	</usable>
+
+	<storage>
+		<locations>
+			<location category="any"/>
+		</locations>
+	</storage>
+
+</item>

@@ -1,0 +1,64 @@
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Name="jacket" MtlFlags="524416" Shader="Illum" GenMask="60400000" StringGenMask="%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_fabric" MatTemplate="" Diffuse="1,1,1" Specular="1,1,1" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/characters/players/male/torso/long/leather_jacket/textures/leather_jacket_male_1g_black.dds"/>
+    <Texture Map="Bumpmap" File="objects/characters/players/male/torso/long/leather_jacket/textures/leather_jacket_male_ddna.tif"/>
+    <Texture Map="Specular" File="objects/characters/players/male/torso/long/leather_jacket/textures/leather_jacket_male_spec.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="sleeves_under" MtlFlags="524416" Shader="Illum" GenMask="60400000" StringGenMask="%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_fabric" MatTemplate="" Diffuse="1,1,1" Specular="1,1,1" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/characters/players/male/torso/long/leather_jacket/textures/leather_jacket_male_1g_black.dds"/>
+    <Texture Map="Bumpmap" File="objects/characters/players/male/torso/long/leather_jacket/textures/leather_jacket_male_ddna.tif"/>
+    <Texture Map="Specular" File="objects/characters/players/male/torso/long/leather_jacket/textures/leather_jacket_male_spec.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" DirtTint="0.038204376,0.038204376,0.038204376" DirtGlossFactor="1" DirtTiling="1" DirtStrength="1" DirtMapAlphaInfluence="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="zippers" MtlFlags="524416" Shader="Illum" GenMask="60400000" StringGenMask="%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_fabric" MatTemplate="" Diffuse="1,1,1" Specular="1,1,1" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/characters/players/male/torso/long/leather_jacket/textures/leather_jacket_male_1g_black.dds"/>
+    <Texture Map="Bumpmap" File="objects/characters/players/male/torso/long/leather_jacket/textures/leather_jacket_male_ddna.tif"/>
+    <Texture Map="Specular" File="objects/characters/players/male/torso/long/leather_jacket/textures/leather_jacket_male_spec.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="elastics" MtlFlags="524416" Shader="Illum" GenMask="60400000" StringGenMask="%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_fabric" MatTemplate="" Diffuse="1,1,1" Specular="0.021219011,0.021219011,0.021219011" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/characters/players/male/torso/long/leather_jacket/textures/leather_jacket_male_1g_black.dds"/>
+    <Texture Map="Bumpmap" File="objects/characters/players/male/torso/long/leather_jacket/textures/leather_jacket_male_ddna.tif"/>
+    <Texture Map="Specular" File="objects/characters/players/male/torso/long/leather_jacket/textures/leather_jacket_male_spec.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" DirtTint="0.064803272,0.064803272,0.064803272" DirtGlossFactor="1" DirtTiling="1" DirtStrength="1" DirtMapAlphaInfluence="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="shoulder_pad" MtlFlags="524416" Shader="Illum" GenMask="60400000" StringGenMask="%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_fabric" MatTemplate="" Diffuse="1,1,1" Specular="0.021219011,0.021219011,0.021219011" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/characters/players/male/torso/long/leather_jacket/textures/leather_jacket_male_1g_black.dds"/>
+    <Texture Map="Bumpmap" File="objects/characters/players/male/torso/long/leather_jacket/textures/leather_jacket_male_ddna.tif"/>
+    <Texture Map="Specular" File="objects/characters/players/male/torso/long/leather_jacket/textures/leather_jacket_male_spec.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" DirtTint="0.038204376,0.038204376,0.038204376" DirtGlossFactor="1" DirtTiling="1" DirtStrength="1" DirtMapAlphaInfluence="1" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="middle_leather" MtlFlags="524416" Shader="Illum" GenMask="60400000" StringGenMask="%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_fabric" MatTemplate="" Diffuse="1,1,1" Specular="1,1,1" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/characters/players/male/torso/long/leather_jacket/textures/leather_jacket_male_1g_black.dds"/>
+    <Texture Map="Bumpmap" File="objects/characters/players/male/torso/long/leather_jacket/textures/leather_jacket_male_ddna.tif"/>
+    <Texture Map="Specular" File="objects/characters/players/male/torso/long/leather_jacket/textures/leather_jacket_male_spec.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" DirtTint="0.38132605,0.25415212,0.20863689" DirtGlossFactor="1" DirtTiling="1" DirtStrength="0.755" DirtMapAlphaInfluence="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="chest" MtlFlags="524416" Shader="Illum" GenMask="60400000" StringGenMask="%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_fabric" MatTemplate="" Diffuse="1,1,1" Specular="1,1,1" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/characters/players/male/torso/long/leather_jacket/textures/leather_jacket_male_1g_black.dds"/>
+    <Texture Map="Bumpmap" File="objects/characters/players/male/torso/long/leather_jacket/textures/leather_jacket_male_ddna.tif"/>
+    <Texture Map="Specular" File="objects/characters/players/male/torso/long/leather_jacket/textures/leather_jacket_male_spec.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" DirtTint="0.47353151,0.35640016,0.30946895" DirtGlossFactor="1" DirtTiling="1" DirtStrength="1" DirtMapAlphaInfluence="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="proxy" MtlFlags="525440" Shader="NoDraw" GenMask="0" StringGenMask="" SurfaceType="mat_fabric" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Opacity="1" Shininess="10" CloakAmount="0" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+ </SubMaterials>
+ <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

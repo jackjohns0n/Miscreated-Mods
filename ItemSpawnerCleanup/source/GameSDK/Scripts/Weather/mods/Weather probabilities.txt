@@ -1,0 +1,10 @@
+Heavy Storm 2
+MediumFog 2
+HeavyFog 2
+TheMist 2
+RadStorm 0
+NuclearFlashFreeze 0
+MediumRain 2
+HeavyRain 2
+AcidRain 0
+

@@ -1,0 +1,65 @@
+<Material MtlFlags="524544" vertModifType="0">
+ <SubMaterials>
+  <Material Name="cabinet" MtlFlags="524416" Shader="Illum" GenMask="60400000" StringGenMask="%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_plastic" MatTemplate="" Diffuse="0.67244327,0.67244327,0.67244327" Specular="1,1,1" Emittance="1,1,1,15" Opacity="1" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/basebuilding/other/arcade_cabinet_simpsons/textures/arcade_cabinet_simpsons_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/basebuilding/other/arcade_cabinet_simpsons/textures/arcade_cabinet_simpsons_ddna.tif"/>
+    <Texture Map="Specular" File="objects/basebuilding/other/arcade_cabinet_simpsons/textures/arcade_cabinet_simpsons_spec.tif"/>
+    <Texture Map="Emittance" File="objects/basebuilding/other/arcade_cabinet_simpsons/textures/arcade_cabinet_simpsons_emmisive.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1.5" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="glass" MtlFlags="524416" Shader="Illum" GenMask="60400000" StringGenMask="%NORMAL_MAP%SPECULAR_MAP%SUBSURFACE_SCATTERING" SurfaceType="mat_plastic" MatTemplate="" Diffuse="0.588,0.588,0.588" Specular="1,1,1" Opacity="0.33000001" Shininess="255" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/basebuilding/other/arcade_cabinet_simpsons/textures/glass_simpsons_diff.tif"/>
+    <Texture Map="Bumpmap" File="objects/basebuilding/other/arcade_cabinet_simpsons/textures/glass_simpsons_ddna.tif"/>
+    <Texture Map="Specular" File="objects/basebuilding/other/arcade_cabinet_simpsons/textures/glass_simpsons_spec.tif"/>
+   </Textures>
+   <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+  </Material>
+  <Material Name="screen" MtlFlags="526464" Shader="Monitor" GenMask="0" StringGenMask="" SurfaceType="mat_plastic" MatTemplate="" Diffuse="1,1,1" Specular="0.013702084,0.013702084,0.013702084" Emittance="1,1,1,60" Opacity="1" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/basebuilding/other/arcade_cabinet_simpsons/textures/screen_simpsons_diff.tif">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TileU="0.5" TexMod_UOscillatorType="2" TexMod_UOscillatorRate="0.5" TexMod_UOscillatorAmplitude="0.5"/>
+    </Texture>
+   </Textures>
+   <PublicParams GrainAmount="0.30000001" DeformAmount="0.029999999" DeformTillingY="128" GrainTilling="16" ResolutionX="1024" ResolutionY="512" InterlacingTilling="2.25" Contrast="1.02" Saturation="1" DeformTillingX="128" GrainSaturation="0" FresnelScale="1.91" InterlacingAmount="0.092" VSyncFreq="0" PixelVisibility="0.46200001" FresnelBias="1" ChromaShift="9.9999997e-006" ViewAngle="118.4" DeformFreq="16"/>
+  </Material>
+  <Material Name="proxy" MtlFlags="525440" Shader="NoDraw" GenMask="0" StringGenMask="" SurfaceType="mat_plastic" MatTemplate="" Diffuse="0.588,0.588,0.588" Specular="0,0,0" Opacity="1" Shininess="10" vertModifType="0" LayerAct="1">
+   <Textures />
+  </Material>
+  <Material Name="ship" MtlFlags="526496" Shader="Monitor" GenMask="0" StringGenMask="" SurfaceType="mat_plastic" MatTemplate="" Diffuse="0.095307469,0.095307469,0.095307469" Specular="0.013702084,0.013702084,0.013702084" Emittance="1,1,1,60" AlphaTest="0.75" CloakAmount="0" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/basebuilding/other/arcade_cabinet/textures/ship_diff.tif">
+     <TexMod TexMod_RotateType="0" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TexMod_UOscillatorType="4" TexMod_UOscillatorRate="0.5" TexMod_UOscillatorAmplitude="0.2" TexMod_VOscillatorType="4" TexMod_VOscillatorRate="0.40000001" TexMod_VOscillatorAmplitude="0.30000001"/>
+    </Texture>
+   </Textures>
+   <PublicParams GrainAmount="5" DeformAmount="0.016000001" DeformTillingY="50" GrainTilling="10" ResolutionX="512" ResolutionY="512" InterlacingTilling="3.9100001" Contrast="1" Saturation="1" DeformTillingX="50" GrainSaturation="1" FresnelScale="0" InterlacingAmount="0" VSyncFreq="0" PixelVisibility="0.435" FresnelBias="1" ChromaShift="0.207" ViewAngle="118.4" DeformFreq="5"/>
+  </Material>
+  <Material Name="logo" MtlFlags="526464" Shader="Monitor" GenMask="0" StringGenMask="" SurfaceType="mat_plastic" MatTemplate="" Diffuse="1,1,1" Specular="0,0,0" Emittance="0.84687334,0.40724024,0.98225069,30" Shininess="10" AlphaTest="0.89999998" CloakAmount="0" vertModifType="0" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/basebuilding/other/arcade_cabinet/textures/logo_diff.tif"/>
+   </Textures>
+   <PublicParams GrainAmount="5" DeformAmount="0.016000001" DeformTillingY="50" GrainTilling="10" ResolutionX="512" ResolutionY="512" InterlacingTilling="3.9100001" Contrast="1" Saturation="1" DeformTillingX="50" GrainSaturation="1" FresnelScale="0" InterlacingAmount="0.255" VSyncFreq="0" PixelVisibility="0.435" FresnelBias="1" ChromaShift="0.207" ViewAngle="118.4" DeformFreq="5"/>
+   <MaterialLayers>
+    <Layer Name="Monitor" NoDraw="0" FadeOut="0">
+     <PublicParams GrainAmount="0.1" DeformAmount="0" DeformTillingY="1" GrainTilling="1" ResolutionX="512" ResolutionY="512" InterlacingTilling="0.25" Contrast="1" Saturation="1" DeformTillingX="1" GrainSaturation="1" FresnelScale="1" InterlacingAmount="0" VSyncFreq="0" PixelVisibility="0.5" FresnelBias="1" ChromaShift="0" ViewAngle="155" DeformFreq="0"/>
+    </Layer>
+    <Layer />
+    <Layer />
+   </MaterialLayers>
+  </Material>
+  <Material Name="press_start" MtlFlags="526464" Shader="Monitor" GenMask="0" StringGenMask="" SurfaceType="mat_plastic" MatTemplate="" Diffuse="0,0,0" Specular="0,0,0" Emittance="0,0,0,22" Opacity="1" AlphaTest="0.47" CloakAmount="0" vertModifType="1" LayerAct="1">
+   <Textures>
+    <Texture Map="Diffuse" File="objects/basebuilding/other/arcade_cabinet_simpsons/textures/text_simpsons_diff.tif">
+     <TexMod TexMod_RotateType="3" TexMod_TexGenType="0" TexMod_bTexGenProjected="0" TexMod_UOscillatorPhase="1" OffsetV="-0.02" TexMod_VOscillatorPhase="1"/>
+    </Texture>
+   </Textures>
+   <VertexDeform Type="1" DividerX="10" DividerY="0.0099999998" NoiseScale="1,1,1">
+    <WaveX Type="1" Amp="0.0060000001" Level="-0.0080000004" Phase="0" Freq="0.69999999"/>
+   </VertexDeform>
+   <PublicParams GrainAmount="5" DeformAmount="0.075000003" DeformTillingY="50" GrainTilling="10" ResolutionX="256" ResolutionY="128" InterlacingTilling="2" Contrast="2" Saturation="1" DeformTillingX="50" GrainSaturation="1" FresnelScale="0" InterlacingAmount="0.255" VSyncFreq="0" PixelVisibility="0.64700001" FresnelBias="1" ChromaShift="0.015" ViewAngle="118.4" DeformFreq="5"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>

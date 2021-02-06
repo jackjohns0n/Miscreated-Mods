@@ -1,0 +1,6 @@
+<LevelInfo SandboxVersion="3.8.6.49" Name="gamesdk/levels/bunker_madness" HeightmapSize="1000">
+ <TerrainInfo HeightmapSize="4096" UnitSize="1" SectorSize="32" SectorsTableSize="128" HeightmapZRatio="0.015625" OceanWaterLevel="16"/>
+ <Missions>
+  <Mission Name="Mission0" Description=""/>
+ </Missions>
+</LevelInfo>

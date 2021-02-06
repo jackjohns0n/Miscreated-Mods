@@ -1,0 +1,6 @@
+<LevelInfo SandboxVersion="3.8.6.49" Name="gamesdk/Levels/smalltest" HeightmapSize="80">
+ <TerrainInfo HeightmapSize="128" UnitSize="1" SectorSize="32" SectorsTableSize="4" HeightmapZRatio="0.015625" OceanWaterLevel="0"/>
+ <Missions>
+  <Mission Name="Mission0" Description=""/>
+ </Missions>
+</LevelInfo>
